@@ -1,0 +1,193 @@
+
+html
+    
+    { 
+        background: url("sewing.jpg");
+        background-size:cover;
+        background-repeat: repeat-y;
+    }
+
+
+body
+   
+    { 
+        font-family: "Times New Roman", Georgia, serif; 
+    }
+
+
+.wrapper 
+   
+    {
+        width: 38%;
+        margin: 0 30.5%;
+        position: absolute;
+    }
+
+
+.navbar
+
+    {
+        height:50px;
+        top: 0;
+        margin: 0 auto;
+        padding:10px 0px;
+    }
+
+
+.navbar a 
+    
+    {
+        float: left;
+        padding: 10px 12px;
+        font-size: 1.5em;
+        text-align: center;
+        text-decoration: underline;
+        color: salmon;
+    }
+
+
+.navbar a:hover 
+    
+    {   
+        color: darkgray;
+    }
+
+
+.navbar a.active 
+    
+    {
+        color: teal;
+     }
+
+
+h1
+    {
+        margin:0 auto;
+        padding: 20px;
+        text-align: center;
+        font-size: 2em;
+    }
+
+
+h2
+    {
+        margin: 0 auto;
+        padding: 10px;
+        text-align: left;
+        font-size: 1.5em;
+        }
+
+#cscInside {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  }
+
+
+p   
+    {
+        margin: 0 auto;
+        text-align: justify;
+        padding: 10px;
+        font-size: 1.25em;
+    }
+
+ul
+    {
+        font-size: 1.25em;
+    }
+
+    
+
+.tables
+
+    {
+        border-collapse: collapse;
+        border-color: black;
+        width: 100%;
+        margin:0 auto;
+        overflow-y: auto;
+        font-size: 1.25em;
+        color: black;
+    }
+
+th 
+    {
+        text-align:center;
+        line-height:1.25em;
+        padding: px;
+    }
+
+tr {
+        text-align: left;
+        line-height: 1.25em;
+        padding: 5px;
+
+    }
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=tel], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container 
+    {
+        font-family: "Times New Roman";
+        font-size: 1.25em;
+        border-radius: 5px;
+        padding: 20px;
+}
+
+
+
+
+
